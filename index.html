@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Pookie 💘</title>
+    <style>
+        body {
+            background-color: #ffe6f2;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            text-align: center;
+            padding: 40px;
+            color: #ff1493;
+        }
+
+        .box {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(255, 20, 147, 0.3);
+            max-width: 650px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #ff69b4;
+            border: none;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 25px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff1493;
+        }
+
+        #message {
+            display: none;
+            margin-top: 25px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        #noMessage {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h1>Will you be my Valentine? 💘</h1>
+
+    <div class="buttons">
+        <button onclick="showLove()">Yes 💗</button>
+        <button onclick="showNo()">No 💔</button>
+    </div>
+
+    <div id="message">
+        <p>
+            Hehe listen pookie 🐣💗 <br><br>
+            U r the only one I loving most 🎀 From our first little fight to becoming a couple,
+            everything with you feels like a movie scene made just for us.
+            Our first meet is still the best day in my life and I will never forget it.
+            I know u r a little crazy but that’s my favorite thing about you, pookie 😌💞
+            I love the crazy things u do and I love u every day and every minute.
+            <br><br>
+            I know u r busy but I will always wait for your free time because you are worth every second.
+            Whenever you message me, my heart gets so happy 😊
+            Just thinking that there is someone like you in my life makes me smile automatically.
+            <br><br>
+            Our proposal day and my best birthday ever 💓
+            Nov 26 when we became lovers will always be special to me.
+            Even though we only talked two times on call, I can still hear your voice in my head.
+            I don’t know when you will speak again but I will wait, my pookie 💗
+            <br><br>
+            If u r free call me, I will always be there to attend.
+            Always yours, always loving you, forever and ever pookie 💘✨
+        </p>
+    </div>
+
+    <div id="noMessage">
+        <p>Hehe no option not allowed 😌💞 Try clicking Yes pookie 💗</p>
+    </div>
+</div>
+
+<script>
+    function showLove() {
+        document.getElementById("message").style.display = "block";
+        document.getElementById("noMessage").style.display = "none";
+    }
+
+    function showNo() {
+        document.getElementById("noMessage").style.display = "block";
+        document.getElementById("message").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
